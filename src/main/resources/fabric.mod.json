@@ -1,18 +1,18 @@
 {
 	"schemaVersion": 1,
-	"id": "where-am-i",
+	"id": "where_am_i",
 	"version": "${version}",
 	"name": "Where am I",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "WhereAmI is a lightweight Mod that allows players to check which structure they are currently inside or which structures exist nearby.",
 	"authors": [
-		"Me!"
+		"ImDuude"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/where-am-i/icon.png",
+	"icon": "assets/where_am_i/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
@@ -23,14 +23,14 @@
 		]
 	},
 	"mixins": [
-		"where-am-i.mixins.json",
+		"where_am_i.mixins.json",
 		{
-			"config": "where-am-i.client.mixins.json",
+			"config": "where_am_i.client.mixins.json",
 			"environment": "client"
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.18.4",
+		"fabricloader": ">=0.18.3",
 		"minecraft": "~1.20.1",
 		"java": ">=17",
 		"fabric-api": "*"

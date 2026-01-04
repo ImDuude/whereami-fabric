@@ -5,13 +5,13 @@ import net.fabricmc.api.ModInitializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import command.WhereAmICommand;
+import com.whereami.command.WhereAmICommand;
 import net.fabricmc.fabric.api.command.v2.CommandRegistrationCallback;
 import net.minecraft.server.command.CommandManager;
 import com.mojang.brigadier.arguments.IntegerArgumentType;
 
 public class WhereAmI implements ModInitializer {
-	public static final String MOD_ID = "where-am-i";
+	public static final String MOD_ID = "where_am_i";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.

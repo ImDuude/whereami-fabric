@@ -1,4 +1,4 @@
-package command;
+package com.whereami.command;
 
 import com.mojang.brigadier.context.CommandContext;
 import net.minecraft.registry.RegistryKeys;
